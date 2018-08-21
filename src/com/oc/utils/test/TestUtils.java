@@ -14,6 +14,7 @@ public class TestUtils {
         list.add( 0.0 );
         list.add( 10.0 );
         list.add( 15.0 );
+        list.add( -21.0 );
 
         Double max = Utils.findMax( list );
 
