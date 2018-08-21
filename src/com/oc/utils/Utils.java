@@ -10,12 +10,11 @@ public class Utils {
             max = null;
         } else {
             max = list.get( 0 );
-            for(Double value : list) {
-                if(max < value)
+            for ( Double value : list ) {
+                if ( max < value )
                     max = value;
             }
         }
-
         return max;
     }
 }
